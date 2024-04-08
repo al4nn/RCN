@@ -1,0 +1,19 @@
+{
+    "name": "rcn",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "npx tailwindcss -i ./assets/css/main.css -o ./assets/css/output.css --watch"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "tailwindcss": "^3.4.3"
+    },
+    "dependencies": {
+        "aos": "^2.3.4",
+        "slick-carousel": "^1.8.1"
+    }
+}
