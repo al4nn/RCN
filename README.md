@@ -7,7 +7,7 @@
 
 ### Tópicos
 
-:small-blue-diamond: [Descrição do projeto](#descrição-do-projeto)
+:small_blue_diamond: [Descrição do projeto](#descrição-do-projeto)
 
 :small_blue_diamond: [Pré-requisitos](#pré-requisitos)
 
