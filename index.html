@@ -58,9 +58,7 @@
     </head>
 
     <body class="overflow-x-hidden bg-[#f9f9f9]">
-        <header
-            class="bg-black py-5 fixed w-full z-50 overflow-hidden"
-        >
+        <header class="bg-black py-5 fixed w-full z-50 overflow-hidden">
             <div class="container px-5 lg:mx-auto flex justify-between">
                 <a class="cursor-pointer" data-serialscrolling="home">
                     <img
@@ -179,21 +177,26 @@
             <div
                 class="content container mx-auto absolute top-[50%] translate-y-[-50%] left-[50%] translate-x-[-50%] flex justify-between gap-12 px-5"
             >
-                <div class="text">
+                <div class="text text-center lg:text-left">
                     <h2
-                        class="text-white text-2xl lg:text-3xl xl:text-5xl font-medium leading-tight"
+                        class="text-white text-2xl lg:text-3xl xl:text-5xl font-medium leading-tight text-center lg:text-left"
+                        data-aos="fade-right"
                     >
                         IMPRESSÃO DE ALTA<br />
                         <b class="italic">QUALIDADE</b> COM ENTREGA <br />
                         SUPER <b class="italic">RÁPIDA</b>!
                     </h2>
-                    <p class="text-white text-lg lg:text-lg xl:text-2xl mt-4">
+                    <p
+                        class="text-white text-lg lg:text-lg xl:text-2xl mt-4 text-center lg:text-left"
+                        data-aos="fade-left"
+                    >
                         COMUNICAÇÃO QUE FAZ A DIFERENÇA
                     </p>
                     <a
-                        class="inline-block mt-16 bg-[#f3eb0a] px-[25px] py-[10px] text-lg lg:px-[47px] lg:py-[25px] lg:text-2xl font-semibold rounded-xl drop-shadow-md duration-300 hover:scale-105 hover:bg-[#25D366]"
+                        class="inline-block mt-16 mx-auto bg-[#f3eb0a] px-[25px] py-[10px] text-lg lg:px-[47px] lg:py-[25px] lg:text-2xl font-semibold rounded-xl drop-shadow-md duration-300 hover:scale-105 hover:bg-[#25D366]"
                         href="https://api.whatsapp.com/send?phone=5511985356286&text=Ol%C3%A1!%20Vim%20atrav%C3%A9s%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento..."
                         target="_blank"
+                        data-aos="fade-up"
                     >
                         <svg
                             class="inline-block mr-4"
@@ -209,7 +212,7 @@
                         FAÇA SEU ORÇAMENTO
                     </a>
                 </div>
-                <div class="image hidden lg:block lg:max-w-md xl:max-w-none">
+                <div class="image hidden lg:block lg:max-w-md xl:max-w-none" data-aos="zoom-in-left">
                     <img
                         class="w-[595px] drop-shadow-2xl"
                         src="assets/images/maquina.png"
@@ -1122,7 +1125,7 @@
             </div>
         </section>
 
-        <footer class="bg-[#181818] py-10" data-aos="flip-up">
+        <footer class="bg-[#181818] pt-10 pb-14 lg:pb-10" data-aos="flip-up">
             <div class="container px-5 lg:mx-auto lg:px-0">
                 <p class="text-white text-center text-sm leading-6">
                     CNPJ: 42.272.648/0001-67
@@ -1147,9 +1150,11 @@
             </div>
         </footer>
 
-        <div class="fixed bottom-7 right-7 flex flex-col items-center gap-2">
+        <div
+            class="fixed bottom-2 right-2 lg:bottom-7 lg:right-7 flex flex-col items-center gap-2"
+        >
             <div
-                class="w-10 h-10 border-2 border-[#ec268f] rounded-full group/topButton duration-200 hover:scale-110 drop-shadow-lg cursor-pointer invisible"
+                class="w-8 h-8 lg:w-10 lg:h-10 border-2 border-[#ec268f] rounded-full group/topButton duration-200 hover:scale-110 drop-shadow-lg cursor-pointer invisible"
                 id="toTopButton"
             >
                 <svg
@@ -1167,12 +1172,16 @@
                     />
                 </svg>
             </div>
-            <div class="duration-200 hover:scale-110 drop-shadow-lg">
+            <div
+                class="duration-200 hover:scale-110 drop-shadow-lg"
+                data-aos="zoom-in"
+            >
                 <a
                     href="https://api.whatsapp.com/send?phone=5511985356286&text=Ol%C3%A1!%20Vim%20atrav%C3%A9s%20do%20site%20e%20preciso%20de%20um%20or%C3%A7amento..."
                     target="_blank"
                 >
                     <img
+                        class="w-12 h-12 lg:w-full lg:h-full"
                         src="./assets/images/logo-whatsapp.png"
                         alt="Whatsapp"
                     />
